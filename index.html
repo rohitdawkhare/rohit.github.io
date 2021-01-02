@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+          <header style="font-size: x-large;color: red;">It’s <span id="t2"> </span> days to the best experience I’ve waited all my life  </header>
+
+<div>
+
+<img src="wedding_inv.jpeg" align="center" width="500" height="700">
+
+</div>
+<input type="text" name="t1" id="t1" >
+</body>
+
+<script type="text/javascript">
+  var msDiff = new Date("February 21, 2021").getTime() - new Date().getTime();    //Future date - current date
+var daysTill30June2035 = Math.floor(msDiff / (1000 * 60 * 60 * 24));
+console.log(daysTill30June2035);
+
+      document.getElementById("t2").innerHTML = daysTill30June2035;
+
+
+</script>
+</html>
